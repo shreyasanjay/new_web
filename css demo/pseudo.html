@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Demo</title>
+    <style>
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: blue;
+        }
+        a:active{
+            color: black;
+        }
+        input:out-of-range{
+            border: 2px solid red;
+        }
+        p::first-letter{
+            color: red;
+            font-size: medium;
+            font-weight: bold;
+        }
+        div::first-line{
+            color: red;
+        }
+        h3{
+            text-align: center;
+        }
+        h3::before{
+            content: 'Welcome! Mr./Mrs. ';
+        }
+        h3::after{
+            content: '. Have a pleasent stay!!';
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo Classes</h2>
+    <a href="https://wissen.com">WIssen Website</a><br>
+    Enter age: <input type="number" min=21 max=60><hr>
+    <h2>Pseudo Elements</h2>
+    <p>
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+    </p>
+    <div class="demo">
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+        This is a sample paragraph with some random text added to demonstrate pseudo elements
+    </div>
+    <h3>Jack</h3>
+    <h3>John</h3>
+    <h3>James</h3>
+</body>
+</html>

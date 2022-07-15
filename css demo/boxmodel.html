@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        p{
+            margin: 50px;
+            border: 2px double blue;
+            padding: 4px;
+            width: fit-content;
+        }
+        .flex-c{
+            display: flex;
+            background: pink;
+        }
+        .flex-c > div{
+            background: red;
+            margin: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Box Model</h2><hr>
+    <p>
+        Demonstrating box model
+    </p>
+    <div class="flex-c">
+        <div>Maharashtra</div>
+        <div>Gujarat</div>
+        <div>Punjab</div>
+        <div>Maharashtra</div>
+        <div>Gujarat</div>
+        <div>Punjab</div>
+    </div>
+
+</body>
+</html>

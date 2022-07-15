@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+
+p{
+    background-color: rgb(182, 238, 219);
+    text-align: center;
+}
+.one{
+    background-color: aqua;
+}
+a[target = _blank]{
+    background: purple;
+    color: white;
+}

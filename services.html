@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/services.css" rel="stylesheet">
+    <script src="./loan.js"></script>
+    <title>Services</title>
+</head>
+
+<body>
+    <h1>Services we provide...</h1>
+    <h3>1: Loan 2: Deposits</h3>
+    <div class="row">
+        <div class="column">
+            <div class="flip-card" id="loan" onclick="loan()">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./media/loan.jpg" id="back" alt="Loan" style="width:300px;height:300px;">
+                        <div class="container">
+                            <h4><b>Loans</b></h4> 
+                          </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>1: Car Loan</h1>
+                        <h1>2: Home Loan</h1>
+                        <h1>3: Personal Loan</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="flip-card" id="deposit" onclick="deposit()">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./media/deposit.jpg" alt="Deposits" style="width:300px;height:300px;">
+                        <div class="container">
+                            <h4><b>Deposits</b></h4> 
+                          </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>1: Fixed Deposit</h1>
+                        <h1>2. Recurring Deposit</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d1" id="d1">
+        
+    </div>
+
+
+</body>
+
+</html>
